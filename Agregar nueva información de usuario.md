@@ -1,0 +1,4 @@
+Un usuario tiene registros personales mostrados en un datatable. El usuario puede agregar registros de este tipo de manera manual con un botón que se encuentra dentro del mismo portal. 
+Sin embargo, al hacer uso de este se llama a un servicio que no informa el resultado de la operación, solo actualiza una tabla de la base de datos al finalizar. 
+Se debe acutalizar automáticamente el datatable luego de relizar dicha actividad. 
+Para ello, se crea función que espera el resultado cuando finalice el servicio. Una vez finalizado, se buscan todos los registros del usuario y si no coincide con la cantidad de registros en el datatable, se busca el que sobra en los del usuario y se agrega mediante dt.row().add({}) con su info corrspondiente
