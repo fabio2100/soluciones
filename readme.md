@@ -1,2 +1,2 @@
-En este repositorio están las soluciones a bugs que hayan surgido. 
-Hay una pequeña explicación del bug y como fue resuelto
+En este repositorio están las soluciones a tareas asignadas y bugs
+Hay una explicación detallada de cómo fueron solucionados
